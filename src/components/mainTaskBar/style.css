@@ -1,0 +1,38 @@
+.main_conatiner {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0.8px 7px rgb(181 181 184);
+}
+
+.heading_row {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading_text {
+  vertical-align: auto;
+  align-items: center;
+  color: white;
+}
+
+.columns_row {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  background-color: white;
+}
+
+.first_column {
+  width: 50%;
+}
+.second_column {
+  width: 50%;
+}
